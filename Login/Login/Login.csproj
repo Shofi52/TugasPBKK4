@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="BDO Dawn.jpg" />
+    <None Remove="wood.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Background\BDO Dawn.jpg" />
+    <Resource Include="wood.jpg" />
+  </ItemGroup>
+
+</Project>
